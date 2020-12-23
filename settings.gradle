@@ -1,0 +1,3 @@
+include ':phonenumberformated'
+include ':app'
+rootProject.name = "PhoneNumberFormated"
