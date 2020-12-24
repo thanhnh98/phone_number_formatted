@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity(), PhoneNumberFormattedEditText.PhoneVali
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         edtPhone = findViewById(R.id.edt_phone)
-        edtPhone.setSplitChar('-')
+        edtPhone.splitChar = '-'
         edtPhone.setPhoneValidateListener(this)
 
         tvStatus = findViewById(R.id.tv_status)
