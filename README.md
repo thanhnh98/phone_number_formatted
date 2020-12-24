@@ -1,4 +1,4 @@
-# Phone Number Formatted
+# Phone Number Formatted (0.0.2)
 
 ## How to work
 
@@ -42,6 +42,6 @@ allprojects {
 ...
 ```
 
-`implementation 'com.github.thanhnh98:phone_number_formatted:0.0.1'`
+`implementation 'com.github.thanhnh98:phone_number_formatted:{newest-version}'`
 
 
